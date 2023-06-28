@@ -71,15 +71,15 @@ export default function Header() {
       <div>
         <Nav />
       </div>
-
-      <div>
+      <Cart />
+      {/* <div>
         <div className="sub-bar">
           <Search />
         </div>
         <div>
-          <Cart />
+        
         </div>
-      </div>
+      </div> */}
     </HeaderStyles>
   );
 }
