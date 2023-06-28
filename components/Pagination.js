@@ -16,13 +16,13 @@ export const PAGINATION_QUERY = gql`
 export default function Pagination({ page }) {
   const { error, loading, data } = useQuery(PAGINATION_QUERY);
 
-  if (loading) return <p>loading....</p>;
+  if (loading) return <p>Loading....</p>;
   if (error) return <DisplayError error={error} />;
 
   const { count } = data?._allProductsMeta;
   const pageCount = Math.ceil(count / perPage);
   return (
-    <PaginationStyles>
+    <PaginationStyles data-testid="pagination">
       <Head>
         <title>Kids CLub - page {page} of __</title>
       </Head>
@@ -31,7 +31,7 @@ export default function Pagination({ page }) {
         <a aria-disabled={page <= 1}>← Prev</a>
       </Link>
       <p>
-        Page {page} of {perPage}{' '}
+        Page {page} of <span data-testid="pageCount">{pageCount}</span>
       </p>
       <p>{count} Items Total </p>
       <Link href={`/products/${page + 1}`}>

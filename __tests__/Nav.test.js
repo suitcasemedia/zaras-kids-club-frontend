@@ -76,7 +76,6 @@ describe('<Nav/>', () => {
       </CartStateProvider>
     );
     await screen.findByText('Account');
-    debug();
     expect(screen.getByText('3')).toBeInTheDocument();
   });
 });
