@@ -42,11 +42,11 @@ export default function SingleProduct({ id }) {
   });
 
   if (loading) return <p> Loading...</p>;
-  if (error) return <DisplayError />;
+  if (error) return <DisplayError error={error} />;
   const { Product } = data;
- 
+
   return (
-    <ProductStyles>
+    <ProductStyles data-testid="single-product">
       <Head>
         <title>Zara's {Product.name}</title>
       </Head>
@@ -61,3 +61,5 @@ export default function SingleProduct({ id }) {
     </ProductStyles>
   );
 }
+
+export { SINGLE_ITEM_QUERY };

@@ -1,6 +1,7 @@
 import { useMutation } from '@apollo/client';
 import gql from 'graphql-tag';
 import styled from 'styled-components';
+import { PropTypes } from 'prop-types';
 
 const BigButton = styled.button`
   font-size: 3rem;
@@ -38,3 +39,7 @@ export function RemoveFromCart({ id }) {
     </BigButton>
   );
 }
+
+RemoveFromCart.propTypes = {
+  id: String.isRequired,
+};

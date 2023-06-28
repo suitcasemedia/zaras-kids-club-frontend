@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Single Product /> Errors out when an item is not found 1`] = `
+<div>
+  <div
+    class="ErrorMessage__ErrorStyles-sc-11u5fgj-0 fDAgpB"
+    data-testid="graphql-error"
+  >
+    <p>
+      <strong>
+        Oh oh!
+      </strong>
+      Items Not Found!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Single Product /> Renders loading state when the query is fired 1`] = `
+<div>
+  <p>
+     Loading...
+  </p>
+</div>
+`;
+
+exports[`<Single Product /> errors with a not found item 1`] = `
+<div>
+  <div
+    class="ErrorMessage__ErrorStyles-sc-11u5fgj-0 fDAgpB"
+    data-testid="graphql-error"
+  >
+    <p>
+      <strong>
+        Oh oh!
+      </strong>
+      Items Not Found!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Single Product /> renders with proper data 1`] = `
+<div>
+  <div
+    class="SingleProduct__ProductStyles-sc-1kapz8w-0 cDdiNc"
+    data-testid="single-product"
+  >
+    <img
+      alt="dogs are best"
+      src="dog.jpg"
+    />
+    <div
+      class="details"
+    >
+      <h2>
+        dogs are best
+      </h2>
+      <p>
+        dogs
+      </p>
+    </div>
+  </div>
+</div>
+`;
