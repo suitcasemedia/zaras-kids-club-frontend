@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartCount /> matches the snapshot 1`] = `
+<div>
+  <span
+    class="CartCount__AnimationStyles-sc-xxvp4g-1 eNWXcl"
+  >
+    <div>
+      <div
+        class="CartCount__Dot-sc-xxvp4g-0 fONSWq count"
+      >
+        11
+      </div>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`<CartCount /> updates via props 1`] = `
+<div>
+  <span
+    class="CartCount__AnimationStyles-sc-xxvp4g-1 eNWXcl"
+  >
+    <div>
+      <div
+        class="CartCount__Dot-sc-xxvp4g-0 fONSWq count count-enter count-enter-active"
+      >
+        21
+      </div>
+      <div
+        class="CartCount__Dot-sc-xxvp4g-0 fONSWq count count-exit count-exit-active"
+      >
+        20
+      </div>
+      <div
+        class="CartCount__Dot-sc-xxvp4g-0 fONSWq count count-exit count-exit-active"
+      >
+        12
+      </div>
+    </div>
+  </span>
+</div>
+`;

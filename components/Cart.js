@@ -71,3 +71,7 @@ export default function Cart() {
     </CartStyles>
   );
 }
+
+CartItem.propTypes = {
+  cartItem: Object.isRequired,
+};
