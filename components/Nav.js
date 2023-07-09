@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import styled from 'styled-components';
 import NavStyles from './styles/NavStyles';
 import { useUser } from './User';
 import SignOut from './SignOut';
@@ -13,14 +12,14 @@ export default function Nav() {
 
   return (
     <NavStyles>
-      <Link href="/products">Shop</Link>
+      {/* <Link href="/products">Shop</Link> */}
 
       {user && (
         <>
-          <Link href="/sell">Sell</Link>
+          {/* <Link href="/sell">Sell</Link>
 
           <Link href="/orders">Orders</Link>
-          <Link href="/account">Account</Link>
+          <Link href="/account">Account</Link> */}
           <SignOut />
           <button onClick={openCart}>
             My Cart
@@ -34,11 +33,11 @@ export default function Nav() {
           </button>
         </>
       )}
-      {!user && (
+      {/* {!user && (
         <>
           <Link href="/signin">Sign in</Link>
         </>
-      )}
+      )} */}
     </NavStyles>
   );
 }

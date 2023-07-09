@@ -89,8 +89,13 @@ export default function SignUp() {
           />
         </label>
 
-        <button type="submit"> Sign Up!</button>
+        <button data-testid="submitButton" type="submit">
+          {' '}
+          Sign Up!
+        </button>
       </fieldset>
     </Form>
   );
 }
+
+export { SIGN_UP_MUTATION };
