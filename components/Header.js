@@ -46,7 +46,7 @@ export default function Header() {
       </div>
       <div>
         <Nav />
-        <Cart />
+        {/* <Cart /> */}
       </div>
 
       {/* <div>
