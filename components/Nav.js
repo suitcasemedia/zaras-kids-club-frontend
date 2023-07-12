@@ -13,7 +13,6 @@ export default function Nav() {
   return (
     <NavStyles>
       {/* <Link href="/products">Shop</Link> */}
-
       {user && (
         <>
           {/* <Link href="/sell">Sell</Link>
@@ -33,6 +32,7 @@ export default function Nav() {
           </button>
         </>
       )}
+      <Link href="/about">About</Link>
       {/* {!user && (
         <>
           <Link href="/signin">Sign in</Link>

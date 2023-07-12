@@ -6,13 +6,11 @@ import Title from '../components/styles/Title';
 import Logo from '../components/styles/Logo';
 import LogoWrapper from '../components/styles/LogoWrapper';
 import Form from '../components/styles/Form';
+import MaxWidth400 from '../components/styles/MaxWidth';
+import Lift from '../components/styles/Lift';
+import Center from '../components/styles/Center';
+import Article from '../components/styles/Article';
 
-const MaxWidth = styled.div`
-  max-width: 400px;
-`;
-const Lift = styled.div`
-  margin-top: -50px;
-`;
 const GraphiteSticksGrid = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -32,30 +30,6 @@ const GraphiteSticksGrid = styled.div`
   }
 `;
 
-const Center = styled.div`
-  text-align: center;
-  h1 {
-    font-size: 6rem !important;
-  }
-`;
-const Article = styled.article`
-  padding: 2rem;
-  background: white;
-  border-radius: 5px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 2rem;
-  margin-top: 20px;
-  height: 100%;
-  h1 {
-    font-size: 3rem;
-    text-align: center;
-  }
-  p {
-    font-size: 1.5rem;
-    line-height: 1.5;
-  }
-`;
 const Banner = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -92,9 +66,9 @@ export default function IndexPage() {
           url="https://res.cloudinary.com/dyliwmprw/video/upload/v1687467394/zaras-signup-video.mov"
         />
 
-        <MaxWidth>
+        <MaxWidth400>
           <ZsCQSignUpForm />
-        </MaxWidth>
+        </MaxWidth400>
       </EmailSignUpGrid>
       <Article>
         <div>
