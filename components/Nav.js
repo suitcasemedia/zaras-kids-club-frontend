@@ -33,6 +33,8 @@ export default function Nav() {
         </>
       )}
       <Link href="/about">About</Link>
+      <Link href="/ourteam">Our Team</Link>
+
       {/* {!user && (
         <>
           <Link href="/signin">Sign in</Link>
