@@ -1,4 +1,22 @@
+import styled from 'styled-components';
 import Article from '../components/styles/Article';
+
+const TeamGrid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  margin-top: 20px;
+  height: 100%;
+  h2 {
+    text-align: left;
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+`;
 
 export default function AboutPage() {
   return (
@@ -6,24 +24,25 @@ export default function AboutPage() {
       <h1>Welcome to Zara's Kids Club!</h1>
 
       <p>
-        Zara's Kids Club is a magical online platform created by two primary
-        school girls who share a name - Zara Connelly and Zara Choudary.
-        Together, we have crafted an immersive world of Quests for children,
-        offering thrilling adventures that range from baking, arts and crafts,
-        magic tricks, to uncovering hidden treasures and saving mythical
-        creatures.
+        Zara's Kids Club is an enchanting online platform brought to life by two
+        remarkable primary school girls named Zara Connelly and Zara Choudary.
+        Our mission is to provide children with an extraordinary collection of
+        quests that encompass a wide range of exciting activities. From baking,
+        arts and crafts, and magic tricks to searching for hidden treasures and
+        saving mythical creatures, our quests offer endless adventures and
+        opportunities for discovery.
       </p>
 
-      <h2>Quests and Adventure Packs</h2>
+      <h2>Quests and weekly Adventure Packs</h2>
       <p>
         Each Quest at Zara's Kids Club is a captivating journey that sparks
-        curiosity and imagination. Our Quests encompass a variety of activities,
-        inviting children to embark on exciting challenges and explore new
-        horizons. Within each Quest, there are multiple Adventure Packs,
-        carefully designed to provide weekly doses of fun and learning. From
-        baking delicious treats to creating beautiful artwork and stories for
-        your sketchbooks our Adventure Packs are packed with inspiring ideas and
-        engaging activities that will keep young minds inspired and entertained.
+        curiosity and imagination. Each quest is accompanied by a series of
+        weekly adventure packs, carefully designed to inspire and engage young
+        minds. These adventure packs are sent directly to parents' inboxes,
+        providing a treasure trove of activities for children to explore. From
+        drawing, painting, and crafts to games and other fun-filled ideas, the
+        adventure packs ensure that every week is filled with wonder and
+        excitement.
       </p>
 
       <h2>Zara's Artistic Creative Quest</h2>
@@ -84,100 +103,75 @@ export default function AboutPage() {
       {
         // team
       }
+      <h1>
+        <span>Meet Our Team</span>
+      </h1>
+      <TeamGrid>
+        <div>
+          <img
+            src="/static/zara-connelly.webp"
+            alt="Zara Connelly"
+            style={{
+              width: '220px',
+              height: '220px',
+              objectFit: 'cover',
+              objectPosition: '50% 50%',
+            }}
+          />
 
-      <div>
-        <div>
-          <div />
-          <div />
-        </div>
-        <div>
           <div>
-            <h1>
+            <h2>
               <span>
-                <span>Meet Our Team</span>
+                <span>Zara Connelly</span>
               </span>
-            </h1>
+            </h2>
           </div>
           <div>
-            <div>
-              <div>
-                <img
-                  src="https://static.wixstatic.com/media/5ff503_605ce441103f4290ade9c7b0328ac1f7~mv2.png/v1/crop/x_0,y_0,w_874,h_874/fill/w_440,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Avatar-Maker%20(2).png"
-                  alt="Avatar-Maker (2).png"
-                  style={{
-                    width: '220px',
-                    height: '220px',
-                    objectFit: 'cover',
-                    objectPosition: '50% 50%',
-                  }}
-                />
-              </div>
-            </div>
-            <div>
-              <h2>
-                <span>
-                  <span>Zara Connelly</span>
-                </span>
-              </h2>
-            </div>
-            <div>
-              <p>
-                <span>
-                  <span>Manager</span>
-                </span>
-              </p>
-            </div>
-            <div>
-              <a href="mailto:Zara.kidsclub@gmail.com" target="_self">
-                <span>Get in Touch</span>
-              </a>
-            </div>
+            <p>
+              <span>
+                <span>Manager</span>
+              </span>
+            </p>
           </div>
+          {/* <div>
+            <a href="mailto:someemail@gmail.com" target="_self">
+              <span>Get in Touch</span>
+            </a>
+          </div> */}
         </div>
-      </div>
 
-      <div>
         <div>
-          <div />
-          <div />
-        </div>
-        <div>
+          <img
+            src="/static/zara-choudry.webp"
+            alt="Zara Choudary"
+            style={{
+              width: '220px',
+              height: '220px',
+              objectFit: 'cover',
+            }}
+          />
+
           <div>
-            <div>
-              <div>
-                <img
-                  src="https://static.wixstatic.com/media/5ff503_8c65f71a61a244b598f1ffae85f7fbb2~mv2.png/v1/crop/x_0,y_0,w_913,h_913/fill/w_440,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Avatar-Maker%20(1).png"
-                  alt="Avatar-Maker (1).png"
-                  style={{
-                    width: '220px',
-                    height: '220px',
-                    objectFit: 'cover',
-                  }}
-                />
-              </div>
-            </div>
-            <div>
-              <h2>
-                <span>
-                  <span>Zara Choudhury</span>
-                </span>
-              </h2>
-            </div>
-            <div>
-              <p>
-                <span>
-                  <span>Manager</span>
-                </span>
-              </p>
-            </div>
-            <div>
-              <a href="mailto:zarachoudhury44@gmail.com" target="_self">
-                <span>Get in Touch</span>
-              </a>
-            </div>
+            <h2>
+              <span>
+                <span>Zara Choudhury</span>
+              </span>
+            </h2>
           </div>
+
+          <p>
+            <span>
+              <span>Manager</span>
+            </span>
+          </p>
+
+          {/* <div>
+            <a href="mailto:zarachoudhury44@gmail.com" target="_self">
+              <span>Get in Touch</span>
+            </a>
+          </div> */}
         </div>
-      </div>
+      </TeamGrid>
     </Article>
   );
 }

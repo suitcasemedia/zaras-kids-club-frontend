@@ -13,6 +13,10 @@ const Article = styled.article`
     font-size: 3rem;
     text-align: center;
   }
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
   p {
     font-size: 1.5rem;
     line-height: 1.5;

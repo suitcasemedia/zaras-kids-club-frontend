@@ -77,14 +77,16 @@ export default function IndexPage() {
           </h1>
           <p>
             Join Zara as you embark on an awe-inspiring artistic journey,
-            exploring the boundless realms of your creative powers.
+            exploring the boundless realms of your creative powers. This is our
+            inaugural quest launched in July 2023 just intime for the six-week
+            summer holidays in England and Wales,
           </p>
           <p>
-            Zara's Creative Quest is a weekly email series that will take you on
-            a journey of discovery and creative exploration. Each week you will
-            receive a new email with a creative challenge, an instructional
-            video, and also an advanced reading section for those who want to
-            dive deeper into the topic.
+            Zara's Creative Quest is a weekly email series of 6 email adventure
+            packs that will take you on a journey of discovery and creative
+            exploration. Each week you will receive a new email with a creative
+            challenge, an instructional video, and also an advanced reading
+            section for those who want to dive deeper into the topic.
           </p>
           <p>
             Zara's Creative Quest is designed for children ages 5-12, but anyone
