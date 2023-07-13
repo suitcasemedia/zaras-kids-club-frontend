@@ -14,6 +14,7 @@ const HeaderStyles = styled.header`
   > div {
     display: flex;
     flex-wrap: 400px;
+    background-color: var(--purple);
   }
 
   .bar {
