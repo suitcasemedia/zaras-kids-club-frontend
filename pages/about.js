@@ -133,6 +133,7 @@ export default function AboutPage() {
               </span>
             </p>
           </div>
+
           {/* <div>
             <a href="mailto:someemail@gmail.com" target="_self">
               <span>Get in Touch</span>
