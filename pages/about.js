@@ -25,12 +25,12 @@ export default function AboutPage() {
 
       <p>
         Zara's Kids Club is an enchanting online platform brought to life by two
-        remarkable primary school girls named Zara Connelly and Zara Choudary.
-        Our mission is to provide children with an extraordinary collection of
-        quests that encompass a wide range of exciting activities. From baking,
-        arts and crafts, and magic tricks to searching for hidden treasures and
-        saving mythical creatures, our quests offer endless adventures and
-        opportunities for discovery.
+        primary school girls who live next door to each other named Zara and
+        Zara. Their mission is to provide children with an extraordinary
+        collection of quests that encompass a wide range of exciting activities.
+        From baking, arts and crafts, and magic tricks to searching for hidden
+        treasures and saving mythical creatures, our quests offer endless
+        adventures and opportunities for discovery.
       </p>
 
       <h2>Quests and weekly Adventure Packs</h2>
@@ -47,7 +47,7 @@ export default function AboutPage() {
 
       <h2>Zara's Artistic Creative Quest</h2>
       <p>
-        In July 2023, we launched Zara's Artistic Creative Quest, our inaugural
+        In July 2023, Zara launched her Artistic Creative Quest, our inaugural
         adventure that focuses on drawing, painting, and crafts. This Quest,
         specially crafted for the six-week summer holidays in England and Wales,
         includes six Adventure Packs that will ignite the artistic talents of
@@ -110,7 +110,7 @@ export default function AboutPage() {
         <div>
           <img
             src="/static/zara-connelly.webp"
-            alt="Zara Connelly"
+            alt="Zara"
             style={{
               width: '220px',
               height: '220px',
@@ -143,7 +143,7 @@ export default function AboutPage() {
         <div>
           <img
             src="/static/zara-choudry.webp"
-            alt="Zara Choudary"
+            alt="Zara"
             style={{
               width: '220px',
               height: '220px',
