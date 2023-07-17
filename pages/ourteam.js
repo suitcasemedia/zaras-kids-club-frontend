@@ -28,7 +28,7 @@ export default function AboutPage() {
         <div>
           <img
             src="/static/zara-connelly.webp"
-            alt="Zara Connelly"
+            alt="Zara"
             style={{
               width: '220px',
               height: '220px',
@@ -61,7 +61,7 @@ export default function AboutPage() {
         <div>
           <img
             src="/static/zara-choudry.webp"
-            alt="Zara Choudry"
+            alt="Zara"
             style={{
               width: '220px',
               height: '220px',
