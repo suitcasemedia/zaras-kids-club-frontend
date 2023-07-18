@@ -40,7 +40,7 @@ export default function AboutPage() {
           <div>
             <h2>
               <span>
-                <span>Zara Connelly</span>
+                <span>Zara</span>
               </span>
             </h2>
           </div>
@@ -72,7 +72,7 @@ export default function AboutPage() {
           <div>
             <h2>
               <span>
-                <span>Zara Choudhury</span>
+                <span>Zara</span>
               </span>
             </h2>
           </div>
