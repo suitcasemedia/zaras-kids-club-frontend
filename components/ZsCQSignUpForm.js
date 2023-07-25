@@ -25,9 +25,7 @@ export default function ZsCQSignUpForm() {
   return (
     <Form>
       <div>
-        <h3>
-          <Title>Embark on Zara's Creative Quest</Title>
-        </h3>
+        <h3>Embark on Zara's Creative Quest</h3>
         <p>
           Enter your parents email to receive your visionary weekly adventure
           pack.
