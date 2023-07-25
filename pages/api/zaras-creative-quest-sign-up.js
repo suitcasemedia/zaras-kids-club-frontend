@@ -53,7 +53,7 @@ export default async (req, res) => {
     return res.status(400).json({
       error:
         error.response.data.title === 'Member Exists'
-          ? `${email} is  already subscribed! We have sent you your first activity pack. If you can't find it try your spam folder. If you still can't find it please email me at hello@zaraskids.club`
+          ? `${email} is  already subscribed to Zara's Artistic Creative Quest! We have sent you your first activity pack. If you can't find it try your spam folder. If you still can't find it please email me at hello@zaraskids.club`
           : "Oops, something went wrong... Send me an email  at hello@zaraskids.club and I'll add you to the list.",
       // error: `Oops, something went wrong... Send me an email and I'll add you to the list.`,
     });
