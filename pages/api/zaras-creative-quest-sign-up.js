@@ -47,8 +47,10 @@ export default async (req, res) => {
     // Success
     return res.status(201).json({ error: null });
   } catch (error) {
+    console.log({ error });
+    console.log(error.config && error.config.data);
     return res.status(400).json({
-      error: `Oops, something went wrong... Send me an email and I'll add you to the list.`,
+      error: `Oops, something went wrong... Send me an email at  hello@zaraskids.club and I'll add you to the list.`,
     });
 
     // Report error to Sentry or whatever
