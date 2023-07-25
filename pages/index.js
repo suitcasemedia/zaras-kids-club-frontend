@@ -62,19 +62,15 @@ export default function IndexPage() {
           playing
           height="300px"
           controls
-          volume
           url="https://res.cloudinary.com/dyliwmprw/video/upload/v1687467394/zaras-signup-video.mov"
         />
-
         <MaxWidth400>
           <ZsCQSignUpForm />
         </MaxWidth400>
       </EmailSignUpGrid>
       <Article>
         <div>
-          <h1>
-            <Title>Zara's Creative Quest</Title>
-          </h1>
+          <h1>Zara's Creative Quest</h1>
           <p>
             Join Zara as you embark on an awe-inspiring artistic journey,
             exploring the boundless realms of your creative powers. This is our
@@ -115,11 +111,7 @@ export default function IndexPage() {
       </Banner>
 
       <Article>
-        <h2>
-          <Title>
-            <h1>Get Your Graphite Sticks Here</h1>
-          </Title>
-        </h2>
+        <h2>Get Your Graphite Sticks Here</h2>
 
         <span>
           <p>
